@@ -1,0 +1,379 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+	width: 1440px;
+}
+.butter{
+	position: fixed;
+	left: 0;
+  top: 0;
+}
+.load{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+}
+.index{
+	position: relative;
+	width: 1440px;
+	height: 900px;
+}
+.ostinload{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	left: 22.16%;
+	top: 40.2%;
+	background: url(../img/load/ostin.png);
+	background-repeat: no-repeat;
+}
+.ostinindex{
+	position: absolute;
+	width: 386px;
+	height: 84.31px;
+	left: 527px;
+	top: 20px;
+}
+.lines{
+	position:absolute;
+	left: 111px;
+	top: 47px;
+	transform: rotate(-180deg);
+	background-image: url(../img/index/бутерброд.png);
+	background-repeat: no-repeat;
+}
+.mans{
+	position: absolute;
+	left: 219px;
+	right: 53px;
+	top: 5.89%;
+	bottom: 92%;
+}
+.font2{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	
+}
+.woman{
+	position: absolute;
+	left: 319px;
+	right: 53px;
+	top: 5.89%;
+	bottom: 92%;
+}
+.kidsbat{
+	position: absolute;
+	left: 423px;
+	right: 68.12%;
+	top: 5.89%;
+	bottom: 92%;
+}
+.form{
+	position: absolute;
+	left: 73%;
+	top: 6%;
+}
+a {
+	color: #000;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #000; 
+} 
+a:hover {
+	color: #E6262F; 
+}
+.search{
+	position: absolute;
+	left: 72.71%;
+	right: 22.15%;
+	top: 5.56%;
+	bottom: 92%;
+}
+.trash{
+	position: absolute;
+	left: 83.19%;
+	right: 15.21%;
+	top: 5.44%;
+	bottom: 92.11%;
+}
+.like{
+	position: absolute;
+	left: 86.88%;
+	right: 11.32%;
+	top: 5.56%;
+	bottom: 92%;
+}
+.enter{
+	position: absolute;
+	left: 90.76%;
+	right: 7.71%;
+	top: 5.44%;
+	bottom: 92.11%;
+}
+.font1{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 97px;
+	text-transform: uppercase;
+}
+.casual{
+	position: absolute;
+	width: 300px;
+	height: 97px;
+	left: 208px;
+	top: 248px;
+}
+.studio{
+	position: absolute;
+	width: 285px;
+	height: 97px;
+	left: 210px;
+	top: 365px;
+}
+.smart{
+	position: absolute;
+	width: 258px;
+	height: 97px;
+	left: 210px;
+	top: 482px;
+}
+.kids{
+	position: absolute;
+	width: 171px;
+	height: 97px;
+	left: 210px;
+	top: 599px;
+}
+.blackup{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	background: #000000;
+	z-index: 1;
+}
+.font3{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	
+	color: #FFFFFF;
+}
+.ostinblackup{
+	position: absolute;
+	width: 178px;
+	height: 38.88px;
+	left: 631px;
+	top: 19.72px;
+}
+.mansblackup{
+	position: absolute;
+	left: 219px;
+	right: 79.93%;
+	top: 33px;
+	bottom: 94.22%;
+}
+.womanblackup{
+	position: absolute;
+	left: 319px;
+	right: 72.71%;
+	top: 33px;
+	bottom: 94.22%;
+}
+.kidsbatblackup{
+	position: absolute;
+	left: 423px;
+	right: 68.12%;
+	top: 33px;
+	bottom: 94.22%;
+}
+.linesblackup{
+	position: absolute;
+	left: 111px;
+	right: 85.9%;
+	top: 27px;
+	bottom: 111px;
+}
+.searchblackup{
+	position: absolute;
+	left: 1047px;
+	top: 35px;
+}
+.trashblackup{
+	position: absolute;
+	Top: 34px;
+	Left: 1198px;
+}
+.likeblackup{
+	position: absolute;
+	Top: 34px;
+	Left: 1251px;
+}
+.enterblackup{
+	position: absolute;
+	Top: 34px;
+	Left: 1307px;
+}
+.inputblackup{
+	position: absolute;
+	left: 1000px;
+	top: 34px;
+	width: 130px;
+	padding: 5px;
+	border-radius: 12.5px;
+
+}
+.inputindex{
+	position: absolute;
+	left: 1047px;
+	top: 48px;
+	width: 90px;
+	padding: 5px;
+	border-radius: 12.5px;
+	border: 1px solid #000;
+
+}
+.ablackup {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ablackup:visited {
+	color: #FFFFFF; 
+} 
+.ablackup:hover {
+	color: #E6262F; 
+}
+.kartbox{
+	width: 180px;
+	height: 340px;
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+.kartcont{
+	padding-left: 20px;
+	margin-top: 10px;
+}
+.kartimg{
+	width: 178px;
+	height: 200px;
+}
+.kartlike{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 15px;
+}
+.kartred{
+	width: max-content;
+	background-color:  #E6262F;
+	padding: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Proxima Nova;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+.kartname{
+	margin-top: 10px;
+	font-family: Proxima Nova;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.5);
+}
+.kartprise{
+	margin-top: 30px;
+	font-family: Proxima Nova;
+	font-size: 20px;
+	color: #000;
+}
+.kartlocation1{
+	position: absolute;
+	left: 144px;
+	top: 130px;
+}
+.kartlocation2{
+	position: absolute;
+	left: 468px;
+	top: 130px;
+}
+.kartlocation3{
+	position: absolute;
+	left: 792px;
+	top: 130px;
+}
+.kartlocation4{
+	position: absolute;
+	left: 1116px;
+	top: 130px;
+}
+.kartlocation5{
+	position: absolute;
+	left: 144px;
+	top: 600px;
+}
+.kartlocation6{
+	position: absolute;
+	left: 468px;
+	top: 600px;
+}
+.kartlocation7{
+	position: absolute;
+	left: 792px;
+	top: 600px;
+}
+.kartlocation8{
+	position: absolute;
+	left: 1116px;
+	top: 600px;
+}
